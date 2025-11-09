@@ -1658,7 +1658,7 @@ function AcrylicPaint()
 				}),
 				New("UIStroke", {
 					Transparency = 0.5,
-					Thickness = 1,
+					Thickness = 2,
 					ThemeTag = {
 						Color = "AcrylicBorder",
 					},
@@ -2889,7 +2889,7 @@ Components.Window = (function()
 			Size = UDim2.fromScale(1, 1),
 			BackgroundTransparency = 1,
 			ScrollBarImageTransparency = 1,
-			ScrollBarThickness = 0,
+			ScrollBarThickness = 2,
 			BorderSizePixel = 0,
 			CanvasSize = UDim2.fromScale(0, 0),
 			ScrollingDirection = Enum.ScrollingDirection.Y,
