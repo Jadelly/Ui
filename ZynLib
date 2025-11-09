@@ -1798,7 +1798,7 @@ Components.Element = (function()
 		})
 
 		Element.Border = New("UIStroke", {
-			Transparency = 0.5,
+			Transparency = 0,
 			ApplyStrokeMode = Enum.ApplyStrokeMode.Border,
 			Color = Color3.fromRGB(0, 0, 0),
 			ThemeTag = {
@@ -2311,7 +2311,7 @@ Components.Dialog = (function()
 				CornerRadius = UDim.new(0, 8),
 			}),
 			New("UIStroke", {
-				Transparency = 0.5,
+				Transparency = 0,
 				ThemeTag = {
 					Color = "DialogBorder",
 				},
@@ -3307,7 +3307,7 @@ ElementsTable.Toggle = (function()
 		})
 
 		local ToggleBorder = New("UIStroke", {
-			Transparency = 0.5,
+			Transparency = 0,
 			ThemeTag = {
 				Color = "ToggleSlider",
 			},
@@ -4190,7 +4190,7 @@ ElementsTable.Keybind = (function()
 				PaddingRight = UDim.new(0, 8),
 			}),
 			New("UIStroke", {
-				Transparency = 0.5,
+				Transparency = 0,
 				ApplyStrokeMode = Enum.ApplyStrokeMode.Border,
 				ThemeTag = {
 					Color = "InElementBorder",
