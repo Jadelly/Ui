@@ -129,7 +129,7 @@ local Themes = {
 	Element = Color3.fromRGB(15, 15, 15),
 	ElementBorder = Color3.fromRGB(255, 255, 255),
 	InElementBorder = Color3.fromRGB(255, 255, 255),
-	ElementTransparency = 0.95,
+	ElementTransparency = 0,
 	ToggleSlider = Color3.fromRGB(40, 40, 40),
 	ToggleToggled = Color3.fromRGB(255, 255, 255),
 	SliderRail = Color3.fromRGB(40, 40, 40),
@@ -1657,7 +1657,7 @@ function AcrylicPaint()
 					CornerRadius = UDim.new(0, 8),
 				}),
 				New("UIStroke", {
-					Transparency = 0.5,
+					Transparency = 0,
 					Thickness = 2,
 					ThemeTag = {
 						Color = "AcrylicBorder",
@@ -4475,7 +4475,7 @@ ElementsTable.Colorpicker = (function()
 				}),
 				New("UIStroke", {
 					Thickness = 2,
-					Transparency = 0.75,
+					Transparency = 0,
 				}),
 				OldColorFrame,
 			})
@@ -4505,7 +4505,7 @@ ElementsTable.Colorpicker = (function()
 				}),
 				New("UIStroke", {
 					Thickness = 2,
-					Transparency = 0.75,
+					Transparency = 0,
 				}),
 				DialogDisplayFrame,
 			})
