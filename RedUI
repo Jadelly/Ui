@@ -12,25 +12,25 @@ local redzlib = {
     Themes = {
         TuanAnhIOS = {
             ["Color Hub 1"] = ColorSequence.new({
-                ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 30)),
-                ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 100, 255)),
-                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 30))
+                ColorSequenceKeypoint.new(0.00, Color3.fromRGB(10, 10, 10)),
+                ColorSequenceKeypoint.new(0.50, Color3.fromRGB(80, 80, 80)),
+                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(10, 10, 10))
             }),
-            ["Color Hub 2"] = Color3.fromRGB(10, 20, 40),
-            ["Color Stroke"] = Color3.fromRGB(0, 120, 255),
-            ["Color Theme"] = Color3.fromRGB(50, 150, 255),
-            ["Color Text"] = Color3.fromRGB(200, 230, 255),
-            ["Color Dark Text"] = Color3.fromRGB(120, 170, 210)
+            ["Color Hub 2"] = Color3.fromRGB(20, 20, 20),
+            ["Color Stroke"] = Color3.fromRGB(180, 180, 180),
+            ["Color Theme"] = Color3.fromRGB(220, 220, 220),
+            ["Color Text"] = Color3.fromRGB(255, 255, 255),
+            ["Color Dark Text"] = Color3.fromRGB(150, 150, 150)
         }
     },
-	Info = {
-		Version = "1.1.0"
-	},
-	Save = {
-		UISize = {550, 380},
-		TabSize = 160,
-		Theme = "TuanAnhIOS"
-	},
+    Info = {
+        Version = "1.1.0"
+    },
+    Save = {
+        UISize = {550, 380},
+        TabSize = 160,
+        Theme = "TuanAnhIOS"
+    },
 	Settings = {},
 	Connection = {},
 	Instances = {},
